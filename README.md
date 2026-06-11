@@ -126,3 +126,78 @@ Purpose:
 
 Purpose:
 - Provide investment diversification suggestions.
+
+## Implementation Approach
+
+The project follows a modular approach where each functionality is implemented using an appropriate Data Structure or Algorithm.
+
+### Portfolio Management
+
+Client portfolio records are stored using vectors. Each client record contains details such as client ID, name, stock ticker, and number of shares.
+
+### Stock Management
+
+Stock information is maintained in a stock database and stored using vectors and hash maps for efficient access.
+
+### Trade Processing
+
+Trade orders are placed and stored in a Queue. Orders are processed in the same sequence in which they are received.
+
+### Dividend Management
+
+Dividend operations are maintained using a Stack. The most recent dividend operation can be undone using the Last-In-First-Out (LIFO) principle.
+
+### Portfolio Sorting
+
+Client portfolios are sorted according to portfolio value using Merge Sort for efficient performance.
+
+### Risk Analysis
+
+Portfolio risk levels are determined based on the number of shares held by each client and categorized as LOW, MEDIUM, or HIGH.
+
+### Financial Network Analysis
+
+A Graph structure is used to model financial entities and their relationships.
+
+### Lowest Risk Route
+
+Dijkstra's Algorithm is applied to determine the minimum-risk path within the financial network.
+
+### Portfolio Balancer
+
+The system provides diversification suggestions based on the client's current investment sector.
+
+### Project Summary Dashboard
+
+The dashboard generates portfolio statistics such as:
+- Total Clients
+- Total Stocks
+- Highest Portfolio Value
+- Lowest Portfolio Value
+- Average Portfolio Value
+
+## Time and Space Complexity Analysis
+
+| Operation | Data Structure / Algorithm | Time Complexity |
+|------------|---------------------------|----------------|
+| Stock Search | Hash Map | O(1) |
+| Trade Insertion | Queue | O(1) |
+| Trade Processing | Queue | O(1) |
+| Dividend Push | Stack | O(1) |
+| Dividend Undo | Stack | O(1) |
+| Portfolio Sorting | Merge Sort | O(n log n) |
+| Risk Analysis | Traversal | O(n) |
+| Financial Network Display | Graph | O(V + E) |
+| Lowest Risk Route | Dijkstra | O(V²) |
+| Project Summary | Traversal | O(n) |
+
+## Space Complexity
+
+| Structure | Space Complexity |
+|------------|------------------|
+| Client Records | O(n) |
+| Stock Records | O(n) |
+| Queue | O(n) |
+| Stack | O(n) |
+| Graph | O(V + E) |
+| Merge Sort | O(n) |
