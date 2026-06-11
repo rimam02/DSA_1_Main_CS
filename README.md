@@ -1,5 +1,11 @@
 # Quantitative Asset Portfolio Management
 
+**Student Name:** Rima Maji  
+**Roll Number:** 150096725215  
+**Course:** B.Tech CSE  
+**Subject:** Data Structures and Algorithms Using C++  
+
+
 A Data Structures and Algorithms (DSA) project developed in C++ for portfolio management, stock analysis, trade processing, risk assessment, and financial network analysis.
 
 ## Features
@@ -204,6 +210,18 @@ The dashboard generates portfolio statistics such as:
 | Merge Sort | O(n) |
 
 
+## Project Structure
+
+```text
+DSA_1_Main_CS/
+│
+├── portfolio.cpp
+├── README.md
+├── screenshots/
+└── sample-output.txt
+```
+
+
 ## Execution Steps
 
 1. Compile the program using a C++ compiler.
@@ -280,6 +298,15 @@ The Quantitative Asset Portfolio Management System was successfully implemented 
 The project demonstrates the practical application of Hash Maps, Queue, Stack, Merge Sort, Graphs, and Dijkstra's Algorithm in solving real-world portfolio management problems.
 
 The system provides efficient portfolio management, trade processing, risk analysis, financial network modeling, and portfolio optimization features while maintaining good computational performance.
+
+
+## Future Scope
+
+- Real-time stock market integration.
+- Database connectivity for persistent storage.
+- Advanced portfolio optimization algorithms.
+- Graphical User Interface (GUI) implementation.
+- Enhanced risk assessment models.
 
 
 ## Screenshots
