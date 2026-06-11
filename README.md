@@ -34,3 +34,95 @@ The system should demonstrate efficient data management, portfolio analysis, tra
 - Represent financial relationships using Graphs.
 - Find the lowest risk route using Dijkstra's Algorithm.
 - Generate portfolio insights and project summaries.
+
+## System Architecture
+
+The system is designed as a menu-driven C++ application that manages client portfolios and stock market data.
+
+### Workflow
+
+Client Data
+↓
+Portfolio Management
+↓
+Stock Analysis
+↓
+Trade Processing
+↓
+Risk Evaluation
+↓
+Financial Network Analysis
+↓
+Portfolio Insights & Summary
+
+The application integrates multiple Data Structures and Algorithms to efficiently perform portfolio operations and financial analysis.
+
+## Data Structures Used
+
+### 1. Hash Map (unordered_map)
+
+Purpose:
+- Fast stock lookup using ticker symbols.
+
+Usage:
+- Search stock information instantly.
+
+### 2. Queue
+
+Purpose:
+- Manage trade orders in First-In-First-Out (FIFO) order.
+
+Usage:
+- Trade processing system.
+
+### 3. Stack
+
+Purpose:
+- Manage dividend history and undo operations.
+
+Usage:
+- Undo last dividend action.
+
+### 4. Vector
+
+Purpose:
+- Store client and stock records.
+
+Usage:
+- Portfolio and stock management.
+
+### 5. Graph
+
+Purpose:
+- Represent financial institutions and their relationships.
+
+Usage:
+- Financial network visualization.
+
+## Algorithms Used
+
+### 1. Merge Sort
+
+Purpose:
+- Sort client portfolios based on portfolio value.
+
+Time Complexity:
+- O(n log n)
+
+### 2. Dijkstra's Algorithm
+
+Purpose:
+- Find the lowest risk route in the financial network.
+
+Time Complexity:
+- O(V²)
+
+### 3. Risk Analysis Algorithm
+
+Purpose:
+- Categorize portfolios into LOW, MEDIUM, and HIGH risk groups based on holdings.
+
+### 4. Portfolio Balancer
+
+Purpose:
+- Provide investment diversification suggestions.
