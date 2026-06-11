@@ -311,17 +311,52 @@ The system provides efficient portfolio management, trade processing, risk analy
 
 ## Screenshots
 
-Screenshots demonstrating:
+### Main Menu
 
-- Main Menu
-- Stock Search
-- Trade Processing
-- Dividend Undo
-- Portfolio Sorting
-- Risk Analysis
-- Financial Network
-- Lowest Risk Route
-- Portfolio Balancer
-- Project Summary Dashboard
+![Main Menu](screenshots/main-menu.png)
 
-will be added here.
+### Stock Search
+
+![Stock Search](screenshots/stock-search.png)
+
+### Trade Order Placement
+
+![Trade Order](screenshots/trade-order.png)
+
+### Trade Processing
+
+![Trade Processing](screenshots/trade-processing.png)
+
+### Apply Dividend
+
+![Apply Dividend](screenshots/apply-dividend.png)
+
+### Undo Dividend
+
+![Undo Dividend](screenshots/dividend-undo.png)
+
+### Portfolio Sorting (Merge Sort)
+
+![Portfolio Sort](screenshots/portfolio-sort.png)
+
+### Risk Analysis
+
+![Risk Analysis](screenshots/risk-analysis.png)
+
+### Financial Network (Graph)
+
+![Financial Network](screenshots/financial-network.png)
+
+### Lowest Risk Route (Dijkstra)
+
+![Lowest Risk Route](screenshots/lowest-risk-route.png)
+
+### Portfolio Balancer
+
+![Portfolio Balancer](screenshots/portfolio-balancer.png)
+
+### Project Summary Dashboard
+
+![Project Summary](screenshots/project-summary.png)
+
+
