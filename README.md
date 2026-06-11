@@ -127,6 +127,7 @@ Purpose:
 Purpose:
 - Provide investment diversification suggestions.
 
+
 ## Implementation Approach
 
 The project follows a modular approach where each functionality is implemented using an appropriate Data Structure or Algorithm.
@@ -201,3 +202,99 @@ The dashboard generates portfolio statistics such as:
 | Stack | O(n) |
 | Graph | O(V + E) |
 | Merge Sort | O(n) |
+
+
+## Execution Steps
+
+1. Compile the program using a C++ compiler.
+
+```bash
+g++ portfolio.cpp -o portfolio
+```
+
+2. Run the executable.
+
+```bash
+./portfolio
+```
+
+3. Select the desired operation from the menu.
+
+4. Perform portfolio management, stock analysis, trade processing, risk analysis, and financial network operations.
+
+5. View generated reports and portfolio summaries.
+
+## Sample Input and Output
+
+### Sample Input
+
+```text
+3
+RELIANCE
+```
+
+### Sample Output
+
+```text
+Stock Found
+
+Ticker : RELIANCE
+Price : 2500
+Sector : Energy
+```
+
+### Sample Input
+
+```text
+4
+101
+BUY
+RELIANCE
+20
+```
+
+### Sample Output
+
+```text
+Trade order placed successfully.
+```
+
+
+## Results and Observations
+
+- The system successfully manages client portfolios and stock information.
+- Hash Maps provide efficient stock lookup operations.
+- Queue ensures FIFO-based trade processing.
+- Stack enables dividend undo functionality.
+- Merge Sort efficiently ranks portfolios based on portfolio value.
+- Graph representation models financial networks effectively.
+- Dijkstra's Algorithm identifies the minimum-risk route.
+- Portfolio Balancer assists in diversification recommendations.
+- Project Summary Dashboard provides portfolio statistics and insights.
+
+
+## Conclusion
+
+The Quantitative Asset Portfolio Management System was successfully implemented using C++ and multiple Data Structures and Algorithms.
+
+The project demonstrates the practical application of Hash Maps, Queue, Stack, Merge Sort, Graphs, and Dijkstra's Algorithm in solving real-world portfolio management problems.
+
+The system provides efficient portfolio management, trade processing, risk analysis, financial network modeling, and portfolio optimization features while maintaining good computational performance.
+
+
+## Screenshots
+
+Screenshots demonstrating:
+
+- Main Menu
+- Stock Search
+- Trade Processing
+- Dividend Undo
+- Portfolio Sorting
+- Risk Analysis
+- Financial Network
+- Lowest Risk Route
+- Portfolio Balancer
+- Project Summary Dashboard
+
+will be added here.
