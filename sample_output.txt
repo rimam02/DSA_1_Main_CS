@@ -1,0 +1,15 @@
+Stock Found Successfully!
+Ticker : RELIANCE
+Company : Reliance
+Price : Rs. 2500
+Sector : Energy
+
+Trade order placed successfully!
+
+
+Processing Order:
+Client ID : 101
+Type : BUY
+Ticker : RELIANCE
+Shares : 20
+Status : Executed Successfully
